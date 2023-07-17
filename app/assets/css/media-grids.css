@@ -48,6 +48,11 @@
 }
 
 @media only screen and (max-width: 576px) {
+
+  .xs-hidden {
+    display: none;
+  }
+
   .col-xs-1 {
     width: 8.33%;
   }
@@ -124,6 +129,11 @@
 }
 
 @media only screen and (min-width: 576px) {
+
+  .sm-hidden {
+    display: none;
+  }
+
   .col-sm-1 {
     width: 8.33%;
   }
@@ -200,6 +210,15 @@
 }
 
 @media only screen and (min-width: 768px) {
+
+  .md-hidden {
+    display: none;
+  }
+
+  .md-show {
+    display: initial;
+  }
+
   .col-md-1 {
     width: 8.33%;
   }
@@ -276,6 +295,15 @@
 }
 
 @media only screen and (min-width: 992px) {
+
+  .lg-hidden {
+    display: none;
+  }
+
+  .lg-show {
+    display: initial;
+  }
+
   .col-lg-1 {
     width: 8.33%;
   }
@@ -352,6 +380,15 @@
 }
 
 @media only screen and (min-width: 1200px) {
+
+  .xl-hidden {
+    display: none;
+  }
+
+  .xl-show {
+    display: initial;
+  }
+
   .col-xl-1 {
     width: 8.33%;
   }

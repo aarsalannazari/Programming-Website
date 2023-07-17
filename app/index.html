@@ -4,24 +4,88 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>صفحه اصلی</title>
-    <link
+    <script
+      src="https://kit.fontawesome.com/d7ae55cf3a.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
-    />
+    /> -->
     <link rel="stylesheet" href="assets/css/media-grids.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <div class="container-fluid">
+    <!-- start contact section -->
+    <div class="container-fluid container-fluid-custom">
       <div class="row">
         <div class="container">
-          <div class="col-xs-6"></div>
-          <div class="col-xs-6"></div>
+          <div class="col-xs-6 col-sm-6 contact">
+            <i class="fa-regular fa-envelope xs-hidden sm-hidden md-show"
+              ><span>aarsalannazari@gmail.com</span></i
+            >
+            <i class="fa-solid fa-phone"><span>09024595600</span></i>
+          </div>
+
+          <div class="col-xs-6 col-sm-6 social-media">
+            <a href="https://wa.me/989024595600" target="_blank"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+            <a href="https://t.me/aarsalannazari" target="_blank"
+              ><i class="fa-brands fa-telegram"></i
+            ></a>
+            <a href="#" target="_blank" class="mq-hd-845"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="#" target="_blank" class="mq-hd-845"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/aarsalannazari/
+            "
+              target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://www.youtube.com/@aarsalannazari" target="_blank"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+            <a href="#" target="_blank" class="xs-hidden sm-hidden md-show"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a
+              href="https://github.com/aarsalannazari"
+              target="_blank"
+              class="xs-hidden"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
         </div>
       </div>
     </div>
+    <!-- end contact section -->
+
+    <!-- start navbar section -->
+    <nav class="nav" id="mynav">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12">
+            <a href=""><i class="fa-solid fa-graduation-cap"></i></a>
+            <a href="" class="active">خانه</a>
+            <a href="">دوره های آموزشی</a>
+            <a href="">درباره ما</a>
+            <a href="">تیم ما</a>
+            <a href="">مطالب</a>
+            <a href="">درباره ما</a>
+            <a href="javascript:void(0);" class="icon" onclick="menu();"
+              ><i class="fa-solid fa-bars"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar section -->
 
     <script src="assets/js/main.js"></script>
   </body>
