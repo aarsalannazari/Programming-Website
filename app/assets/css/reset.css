@@ -15,8 +15,7 @@
   font-family: Vazir;
   src: url(../font/Vazir.eot) format(eot);
   src: url(../font/Vazir.eot?#iefix) format(embedded-opentype),
-    url(../font/Vazir.woff) format(woff),
-    url(../font/Vazir.woff2) format(woff2),
+    url(../font/Vazir.woff) format(woff), url(../font/Vazir.woff2) format(woff2),
     url(../font/Vazir.ttf) format(truetype);
   font-weight: normal;
   font-style: normal;
@@ -38,7 +37,9 @@ a {
   text-decoration: none;
 }
 
-ul,ol,li {
+ul,
+ol,
+li {
   margin: 0;
   padding: 0;
   list-style: none;
