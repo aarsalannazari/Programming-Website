@@ -5,6 +5,12 @@
       display: none;
     }
   }
+
+@media only screen and (max-width: 447px) {
+  .mq-hd-447 {
+    display: none;
+  }
+}
   
   @media only screen and (max-width: 500px) {
   
