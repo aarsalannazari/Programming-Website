@@ -17,7 +17,11 @@
 
 .p-0 {padding: 0!important}
 
-.m-0 {margin: 0}
+.m-0 {margin: 0!important}
+
+.relative {position: relative}
+
+.absolute {position: absolute;}
 
 .round-corner {border-radius: 5px}
 
