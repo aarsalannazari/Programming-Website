@@ -1,5 +1,32 @@
 /* start navbar section styles */
 
+@media only screen and (max-width: 670px) {
+  .nav a:not(:first-child) {
+    display: none;
+  }
+
+  .nav a.icon {
+    display: block;
+    float: left;
+  }
+
+  .nav.responsive {
+    position: relative;
+  }
+
+  .nav.nav.responsive a.icon {
+    position: absolute;
+    top: 0;
+    left: 15px;
+  }
+
+  .nav.nav.responsive a {
+    float: none;
+    display: block;
+    text-align: right;
+  }
+}
+
 .nav {
   width: 100%;
   background-color: white;
@@ -25,33 +52,6 @@
 
 .icon {
   display: none;
-}
-
-@media only screen and (max-width: 650px) {
-  .nav a:not(:first-child) {
-    display: none;
-  }
-
-  .nav a.icon {
-    display: block;
-    float: left;
-  }
-
-  .nav.responsive {
-    position: relative;
-  }
-
-  .nav.nav.responsive a.icon {
-    position: absolute;
-    top: 0;
-    left: 15px;
-  }
-
-  .nav.nav.responsive a {
-    float: none;
-    display: block;
-    text-align: right;
-  }
 }
 
 .active {
