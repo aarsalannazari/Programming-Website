@@ -47,4 +47,22 @@
   }
 }
 
+@media only screen and (max-width: 700px) {
+  .header-title h1 {
+    font-size: 25px;
+  }
+
+  .header-title h3 {
+    font-size: 15px;
+  }
+
+  .header-title a {
+    font-size: 14px;
+  }
+
+  .img-header,.overlay {
+    min-height: auto;
+  }
+}
+
 /* end media queries custom */
