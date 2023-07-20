@@ -1,22 +1,3 @@
-/* start media queries custom */
-
-@media only screen and (max-width: 845px) {
-  .mq-hd-845 {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 447px) {
-  .mq-hd-447 {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-}
-
-/* end media queries custom */
-
 /* start contact section styles */
 
 .container-fluid-custom {
@@ -62,3 +43,19 @@
 }
 
 /* end social-media styles */
+
+/* start media queries custom */
+
+@media only screen and (max-width: 845px) {
+  .mq-hd-845 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 447px) {
+  .mq-hd-447 {
+    display: none;
+  }
+}
+
+/* end media queries custom */

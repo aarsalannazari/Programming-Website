@@ -1,23 +1,5 @@
 /* start header style */
 
-@media only screen and (max-width: 1300px) {
-    .header-title {
-      width: 100%;
-      margin: 0;
-      color: #fff;
-      padding: 50px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-  
-    .overlay,
-    .img-header {
-      min-height: 99%;
-    }
-  }
-
 .img-header {
   height: 90vh;
 }
@@ -42,3 +24,27 @@
   float: left;
   margin-left: 20px;
 }
+
+/* end header style */
+
+/* start media queries custom */
+
+@media only screen and (max-width: 1300px) {
+  .header-title {
+    width: 100%;
+    margin: 0;
+    color: #fff;
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .overlay,
+  .img-header {
+    min-height: 99%;
+  }
+}
+
+/* end media queries custom */
