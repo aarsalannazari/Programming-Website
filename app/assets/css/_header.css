@@ -18,8 +18,8 @@
 .header-title a {
   padding: 5px 10px;
   border-radius: 3px;
+  margin-left: -120px;
   float: left;
-  margin-left: 20px;
 }
 
 /* end header style */
@@ -34,6 +34,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  .header-title a {
+    margin-left: 0;
   }
 
   .overlay,
@@ -53,6 +57,7 @@
 
   .header-title a {
     font-size: 14px;
+    margin-left: 0;
   }
 
   .img-header,.overlay {
