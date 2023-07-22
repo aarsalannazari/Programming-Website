@@ -1,0 +1,35 @@
+/* start about us section */
+.about-us-left {
+    background-color: #efefef;
+    padding: 60px;
+}
+
+.about-us-left h4 {
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 18px;
+    font-size: 18px;
+    color: #272626;
+}
+
+.about-us-left p {
+    padding: 26px;
+    font-size: 17px;
+    line-height: 27px;
+    color: #6b6666;
+}
+
+.about-us-left a {
+    padding: 5px 10px;
+    border-radius: 3px;
+    float: left;
+    font-size: 16px;
+    transition: 0.5s ease;
+}
+
+.about-us-left a:hover {
+    border-radius: 0 10px 0 10px;
+}
+/* end about us section */
+
+/* start media queries custom */
+/* end media queries custom */

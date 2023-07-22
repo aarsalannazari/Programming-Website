@@ -1,19 +1,19 @@
 /* start contact section styles */
 
-.container-fluid-custom {
+.contact-wrapper {
   background-color: rgb(1, 1, 126);
   height: 40px;
 }
 
-.container-fluid-custom .contact {
+.contact-wrapper .contact {
   font-size: 15px;
 }
 
-.container-fluid-custom .contact i {
+.contact-wrapper .contact i {
   vertical-align: -9px;
 }
 
-.container-fluid-custom .contact span {
+.contact-wrapper .contact span {
   color: #fff;
   margin: 0 5px;
 }
@@ -22,11 +22,11 @@
 
 /* start social-media styles */
 
-.container-fluid-custom .social-media {
+.contact-wrapper .social-media {
   direction: ltr;
 }
 
-.container-fluid-custom .social-media i {
+.contact-wrapper .social-media i {
   vertical-align: -9px;
   margin-right: 5px;
   font-size: 20px;
@@ -36,7 +36,7 @@
   transition: background-color 0.25s linear;
 }
 
-.container-fluid-custom .social-media i:hover {
+.contact-wrapper .social-media i:hover {
   background-color: orange;
 }
 
