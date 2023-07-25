@@ -19,11 +19,11 @@
   border-bottom: 1px solid white;
 }
 
-.nav a:hover {
+.nav a:hover:not(.icon) {
   border-bottom: 2px solid red;
 }
 
-.icon {
+.nav a.icon {
   display: none;
 }
 
@@ -41,21 +41,22 @@
   }
 
   .nav a.icon {
-    display: block;
+    display: table;
     float: left;
+    transition: 0.25s linear;
   }
 
   .nav.responsive {
     position: relative;
   }
 
-  .nav.nav.responsive a.icon {
+  .nav.responsive a.icon {
     position: absolute;
     top: 0;
     left: 15px;
   }
 
-  .nav.nav.responsive a {
+  .nav.responsive a:not(.icon) {
     float: none;
     display: block;
     text-align: right;

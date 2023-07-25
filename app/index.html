@@ -103,7 +103,7 @@
     <!-- end contact section -->
 
     <!-- start navbar section -->
-    <nav class="nav" id="mynav">
+    <nav class="nav" id="up-nav">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-sm-12">
@@ -114,9 +114,14 @@
             <a href="">تیم ما</a>
             <a href="">مطالب</a>
             <a href="">درباره ما</a>
-            <a href="javascript:void(0);" class="icon" onclick="menu();"
-              ><i class="fa-solid fa-bars"></i
-            ></a>
+            <a
+              href="javascript:void(0);"
+              class="icon"
+              id="nav-icon"
+              onclick="menu();"
+            >
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </a>
           </div>
         </div>
       </div>
@@ -214,11 +219,22 @@
                     دوره متخصص CSS3
                   </p>
                 </div>
-                <img
-                  src="assets/image/CSS.jpg"
-                  alt="web-design website-design web-disigning design css-programming css"
-                  class="img-responsive"
-                />
+                <picture class="img-responsive">
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="assets/image/CSS.jpg"
+                    class="img-responsive"
+                  />
+                  <source
+                    media="(max-width: 768px)"
+                    srcset="assets/image/CSS-small.jpg"
+                  />
+                  <img
+                    src="assets/image/CSS.jpg"
+                    alt="web-design website-design web-disigning design css-programming css"
+                    class="img-responsive"
+                  />
+                </picture>
               </div>
               <div class="card-body relative">
                 <div class="course-title">
@@ -402,6 +418,14 @@
     </section>
     <!-- end about us section -->
 
+    <!-- start teachers section -->
+    <section class="container-fluid teachers">
+      <div class="col-xs-12 col-sm-12 col-md-12">
+        <div class="row"></div>
+      </div>
+    </section>
+    <!-- end teachers section -->
+
     <p><br /></p>
     <p><br /></p>
     <p><br /></p>
@@ -412,7 +436,6 @@
     <p><br /></p>
     <p><br /></p>
     <p><br /></p>
-    
 
     <script src="assets/js/main.js"></script>
   </body>
