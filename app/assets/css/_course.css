@@ -29,4 +29,13 @@
 /* end course section */
 
 /* start media queries custom */
+@media only screen and (min-width: 576px) and (max-width: 900px) {
+    .course-title a {
+        font-size: 12px
+    }
+
+    .course-title p {
+        font-size: 10px;
+    }
+}
 /* end media queries custom */

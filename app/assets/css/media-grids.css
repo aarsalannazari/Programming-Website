@@ -39,6 +39,8 @@
 
 .round-corner {border-radius: 5px}
 
+.ver-align-cen {vertical-align: middle;}
+
 .container-fluid {width: 100%}
 
 .container {
@@ -96,7 +98,7 @@
 @media only screen and (max-width: 576px) {
 
   .xs-hidden {
-    display: none;
+    display: none!important;
   }
 
   .col-xs-1 {
@@ -177,7 +179,7 @@
 @media only screen and (min-width: 576px) {
 
   .sm-hidden {
-    display: none;
+    display: none!important;
   }
 
   .col-sm-1 {
@@ -258,11 +260,11 @@
 @media only screen and (min-width: 768px) {
 
   .md-hidden {
-    display: none;
+    display: none!important;
   }
 
   .md-show {
-    display: initial;
+    display: initial!important;
   }
 
   .col-md-1 {
@@ -343,11 +345,11 @@
 @media only screen and (min-width: 992px) {
 
   .lg-hidden {
-    display: none;
+    display: none!important;
   }
 
   .lg-show {
-    display: initial;
+    display: initial!important;
   }
 
   .col-lg-1 {
@@ -428,11 +430,11 @@
 @media only screen and (min-width: 1200px) {
 
   .xl-hidden {
-    display: none;
+    display: none!important;
   }
 
   .xl-show {
-    display: initial;
+    display: initial!important;
   }
 
   .col-xl-1 {

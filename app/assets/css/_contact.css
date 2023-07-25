@@ -16,6 +16,7 @@
 .contact-wrapper .contact span {
   color: #fff;
   margin: 0 5px;
+  font-family: Vazir-Medium!important;
 }
 
 /*end contact section styles */
@@ -46,13 +47,13 @@
 
 @media only screen and (max-width: 845px) {
   .mq-hd-845 {
-    display: none;
+    display: none!important;
   }
 }
 
 @media only screen and (max-width: 447px) {
   .mq-hd-447 {
-    display: none;
+    display: none!important;
   }
 }
 

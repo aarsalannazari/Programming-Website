@@ -32,4 +32,12 @@
 /* end about us section */
 
 /* start media queries custom */
+@media only screen and (max-width: 900px) {
+    .about-us-right {
+        display: none;
+    }
+    .about-us-left {
+        width :100%;
+    }
+}
 /* end media queries custom */
